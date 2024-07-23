@@ -13,3 +13,4 @@ test('Reverse string', () => {
 })
 
 // testing
+// $ npm test
