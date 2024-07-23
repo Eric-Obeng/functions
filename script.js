@@ -6,4 +6,8 @@ function greetUser(name) {
   return `Hello, ${name}!`;
 }
 
-module.exports = { add, greetUser };
+const reverse = (str) => {
+    return str.split("").reverse().join("");
+}
+
+module.exports = { add, greetUser, reverse };
